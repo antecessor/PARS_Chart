@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Software\SDKAndroidStudio\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_7a6c7c45dcf3446d5f2d293a8c795befe415825e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-22.1.1_83f55f67a3b5f81b34b5235ae161db5d6b647231.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_9c188a613fd30ab457651e4df81c16bc5140fa4a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Software\SDKAndroidStudio\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.1.1_7a6c7c45dcf3446d5f2d293a8c795befe415825e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.1.1_65c35e5bfdddff64a7b823cdbae3a5316cba812b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.1.1_4edbaf5a347b3f1102d02af3bc487b48744e006c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="705309ce8691c6909b0417b53bd335fb7238bae2">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f4c7b0f40b172ab546d8c485fd36bc602e1f801f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.1.1_6a0a39771087c3f816c3b95360c080c5b22f7eca.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.1.1_6edd4bd08c2076aa7275076e8641d130343169a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f254d7652224ea248cac52af76a2cc7f739d438a">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_380c89a499384ae005bd0c07b356eadd03b2db4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-22.1.1_b43baed4009abd3f6b97877aae14df6f567c4058\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.2.1_3d17aa2b38bf8f992231a62b5930607564782458\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.1.1_71e3ce4617f8beb149e6aa257898c0d54816014b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\Project\Prognosis\risk Heart_android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.1.1_43011e36187437ef5e09fce932e37a7f63b0bb19\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="F:\Android_workSpace\TestAndroidMatDesign\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-22.1.1_0c8eca585f5beb07696500ed864f580e2c15df58.jar" />
+    </item>
+
+</items>
