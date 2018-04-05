@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <android.support.v7.internal.widget.FitWindowsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+  android:layout_gravity="center_horizontal|center"
+
+    android:layout_centerHorizontal="true">
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    >
+
+    <TableRow><Space android:layout_height="200dp" /></TableRow>
+
+
+<LinearLayout android:orientation="vertical">
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:text="1:  Your personal risk of CVD"/>
+    <TextView
+        android:layout_gravity="left"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:text="2:  Risk of CVD in a person with same age and sex, but without risk factors."/>
+    <TextView
+        android:layout_gravity="left"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:text="3:  Risk of CVD in a person with same age and sex, and a risk factor profile corresponding general Iranian population."/>
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:id="@+id/graph"></com.jjoe64.graphview.GraphView>
+
+</LinearLayout>
+    <RelativeLayout>
+
+
+
+
+
+
+
+
+
+        <RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+
+
+            <RadioButton
+                android:text="Woman"
+
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+
+                android:layout_marginEnd="16dp"
+                android:id="@+id/Womand" />
+
+            <RadioButton
+                android:text="Man"
+
+                android:checked="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="77dp"
+                android:id="@+id/Mand" />
+
+        </RadioGroup>
+    </RelativeLayout>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+        <TableRow >
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:text="Age (35-91 years): "
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"/>
+        </TableRow>
+    <TableRow android:layout_width="match_parent">
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="56"
+        android:id="@+id/Age"
+        android:progress="0"
+ />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35"
+            android:id="@+id/valueAge"
+            android:gravity="center_horizontal|center" />
+
+
+        </TableRow>
+
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+<TableRow>
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:text="Waist Circumferences (51-140 cm): "
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="89"
+        android:id="@+id/Waist"
+
+
+        android:progress="1"
+        android:elevation="1dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="54"
+            android:gravity="center_horizontal"
+            android:id="@+id/valueWaist"
+            />
+
+</TableRow>
+
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Hip Circumferences (53-145 cm): "
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            />
+
+</TableRow>
+    <TableRow>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="92"
+            android:id="@+id/Hip"
+
+            android:progress="1"
+            android:elevation="1dp" />
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="53"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/valueHip" />
+
+    </TableRow>
+
+
+
+
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Systolic blood pressure (60-238 mmHg): "
+
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            />
+
+
+
+       </TableRow>
+    <TableRow>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="178"
+            android:id="@+id/Pres"
+
+            android:progress="1"
+            android:elevation="1dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:gravity="center_horizontal"
+            android:id="@+id/valuePres"
+            />
+
+    </TableRow>
+
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:text="Total cholestrol (68-450 mg/dL): "
+
+
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            />
+
+
+</TableRow>
+    <TableRow>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="382"
+            android:id="@+id/TCH"
+
+            android:progress="1"
+            android:elevation="1dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="83"
+            android:gravity="center_horizontal"
+            android:id="@+id/valueTCH"
+            />
+    </TableRow>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+
+
+    <TableRow>
+
+    </TableRow>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family history : "/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FM"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+
+
+    </TableRow>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smoker : "/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Smoker"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+    </TableRow>
+    <TableRow><Space android:layout_height="10dp" /></TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes : "/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Diabetes"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+    </TableRow>
+    <TableRow> </TableRow>
+    <TableRow> </TableRow>
+    <RelativeLayout>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:id="@+id/Calc"
+           android:theme="@style/MainTheme"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</TableLayout>
+
+
+
+
+
+
+</android.support.v7.internal.widget.FitWindowsFrameLayout>
+    </ScrollView>

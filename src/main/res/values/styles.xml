@@ -1,0 +1,30 @@
+<resources>
+
+
+    <style name="AppTheme" parent="MainTheme">
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+
+    <style name="MenuMainStyle" parent="Theme.AppCompat.Light">
+
+        <item name="android:textColorPrimary">#e18484</item>
+        <item name="android:background">#a0d1e7</item>
+
+
+    </style>
+
+
+
+</resources>

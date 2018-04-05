@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MainTheme">
+
+
+
+
+    </style>
+
+
+
+    <style name="MenuMainStyle" parent="Theme.AppCompat.Light">
+
+        <item name="android:textColorPrimary">#e18484</item>
+        <item name="android:background">#a0d1e7</item>
+        <item name="android:subtitleTextStyle">@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+
+
+    </style>
+
+
+
+
+</resources>
