@@ -5,5 +5,7 @@ Online Tool:  http://www.prognosis.ir/Pars/index.php
 <br>
 Article URL:
 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189389
+<br>
+![PARS](https://github.com/antecessor/PARS_Chart/blob/master/Main.PNG)
 
 
